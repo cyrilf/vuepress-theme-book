@@ -1,0 +1,144 @@
+// NAVBAR
+
+body .navbar .site-name, h1, h2
+  color: $titleColor
+
+// SEARCH BOX
+
+.navbar
+  box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1)
+  .links
+    flex-direction: row-reverse
+
+    .search-box
+      font-size: 1rem
+      line-height: 1.625
+      border-radius: 3px
+      margin: 0 0 0 1rem
+
+      input
+        font: inherit
+        font-size: 0.9rem
+        border: none
+        margin: 0
+        text-align: left
+        border-radius: 3px
+        padding-left: 2rem
+
+      .suggestions
+        border-radius: 0
+        border-color: $lightDelimiterColor
+        top: 2.25rem
+
+      @media (min-width: $MQNarrow)
+        &:before
+          top: 50%
+          left: 0
+          height: $navbarHeight
+          content: ""
+          position: absolute
+          transform: translateY(-50%)
+          border-left: 1px solid $lightDelimiterColor
+
+        input
+          height: 100%
+          background-size: 0.9rem
+          background-position-y: 50%
+
+// SIDEBAR
+
+.sidebar
+  background-color: $sidebarBgColor
+  padding-left: 1.5rem
+
+.sidebar-group
+  color: $sidebarHeaderColor
+  margin-bottom: 1.5rem
+
+  .sidebar-heading, .sidebar-heading
+    font-size: 0.75rem
+    text-transform: uppercase
+    color: $sidebarHeaderColor
+    letter-spacing: 1.2px
+    padding: 0.5rem 1.5rem 0.5rem 1rem
+
+  li a.sidebar-link
+    padding-left: 1.2rem
+
+.sidebar-links
+  a.sidebar-link
+    font-size: 0.9rem
+    font-weight: 500
+    line-height: 1.5
+    padding: 0.5rem 1.5rem 0.5rem 1rem
+    border: 1px solid transparent
+    color: $textColor
+
+    &:hover
+      color: $textColor
+      background-color: $lightDelimiterColor
+
+    &.active
+      border-color: $lightDelimiterColor
+      border-right: none
+      background-color: white
+
+  .sidebar-links .sidebar-sub-headers a
+    background-color: inherit
+    border-color: transparent
+
+// H1
+
+h1
+  padding-bottom: 2rem
+  border-bottom: 2px solid $lightDelimiterColor
+  font-size: 2rem
+  font-weight: 500
+  line-height: 1.5
+
+// Position the delimiting line above the h2
+// but it can cause an issue if the first h2 is directly afterwards the h1
+
+// h2
+//   position: relative
+//   border-bottom: none
+
+//   &:before
+//     bottom: 3.5rem
+//     left: 0
+//     width: 100%
+//     height: 1px
+//     content: ""
+//     position: absolute
+//     background-color: $lightDelimiterColor
+//   
+// 
+
+// PAGE NAV
+
+.page-nav .inner
+  display: grid
+  grid-column-gap: 1.5rem
+  grid-template-areas: "previous next"
+  grid-template-columns: 1fr 1fr
+
+  span.prev, span.next
+    display: flex
+    align-items: center
+    border: 1px solid $lightDelimiterColor
+    grid-area: previous
+    box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1)
+    border-radius: 3px
+    background-color: white
+    padding-left: 1rem
+
+    a
+      flex: 1
+      color: #242A31
+      text-align: right
+      padding: 1rem 1rem 1rem 0
+
+  span.next
+    grid-area: next
+    a
+      text-align: left
