@@ -17,7 +17,7 @@ Want to add your website too? Send me a PR. :v:
 
 ## Installation
 
-`npm install -S vuepress-theme-book`
+`npm install --save-dev vuepress-theme-book`
 
 ## Usage
 
