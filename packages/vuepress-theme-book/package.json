@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-theme-book",
+  "author": "cyrilf",
+  "version": "0.0.2",
+  "description": "A Vuepress theme inspired by gitbook aesthetics",
+  "main": "index.js",
+  "keywords": [
+    "vuepress",
+    "theme",
+    "gitbook",
+    "vuepress-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrilf/vuepress-theme-book.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyrilf/vuepress-theme-book/issues"
+  },
+  "homepage": "https://github.com/cyrilf/vuepress-theme-book",
+  "dependencies": {},
+  "devDependencies": {}
+}
