@@ -2,7 +2,7 @@
 
 A [VuePress](https://vuepress.vuejs.org) theme inspired by [Gitbook](https://docs.gitbook.com/).
 
-![screenshot](../../screenshot.png)
+![screenshot](screenshot.png)
 
 [Live demo](https://vuepress-theme-book.netlify.app)
 
