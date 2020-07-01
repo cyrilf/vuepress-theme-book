@@ -1,0 +1,25 @@
+{
+  "private": "true",
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "A simple demo of the vuepress-theme-book",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "develop": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "optimize": "node scripts/optimize.js"
+  },
+  "dependencies": {
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-clean-urls": "^1.1.1",
+    "vuepress-theme-book": "^*"
+  },
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "sharp": "^0.25.4"
+  }
+}
