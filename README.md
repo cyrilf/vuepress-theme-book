@@ -4,22 +4,26 @@ A [VuePress](https://vuepress.vuejs.org) theme inspired by [Gitbook](https://doc
 
 ![screenshot](screenshot.png)
 
-[Live demo](https://opportunist.luseeds.com)
+[Live demo](https://vuepress-theme-book.netlify.app)
 
 I really love their clean and minimalist style, so I decided to do a theme for VuePress.
 
 It is **not** 100% identical to a Gitbook page, some choices are made to respect VuePress limitations.
 It is based on `@vuepress/theme-default` and I only extend it.
 
-You can see a **live demo** on the [opportunist website](https://opportunist.luseeds.com) by [luseeds](https://luseeds.com)
-
-Want to add your website too? Send me a PR. :v:
+You can see a **live demo** on the [demo website](https://vuepress-theme-book.netlify.app)
 
 ## Using the Theme
 
 If you want to use this theme on your own project, please refers to the Theme Readme.
 
 ### [Go to the Theme Readme](./packages/vuepress-theme-book/README.md)
+
+## Websites using this theme:
+
+- [The Wise Opportunist](https://opportunist.luseeds.com) by [luseeds](https://luseeds.com)
+
+Want to add your website too? Send me a PR. :v:
 
 ## Developing:
 
