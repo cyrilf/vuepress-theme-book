@@ -1,7 +1,7 @@
 {
   "name": "vuepress-theme-book",
   "author": "cyrilf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Vuepress theme inspired by gitbook aesthetics",
   "main": "index.js",
   "keywords": [
