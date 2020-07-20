@@ -7,7 +7,7 @@
     "patch": "yarn workspace vuepress-theme-book version --patch",
     "minor": "yarn workspace vuepress-theme-book version --minor",
     "major": "yarn workspace vuepress-theme-book version --major",
-    "publish": "yarn workspace vuepress-theme-book publish"
+    "publish-theme": "yarn workspace vuepress-theme-book publish"
   },
   "workspaces": [
     "packages/*"
