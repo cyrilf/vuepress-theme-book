@@ -12,13 +12,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyrilf/vuepress-theme-book.git"
+    "url": "https://github.com/cyrilf/vuepress-theme-book.git"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cyrilf/vuepress-theme-book/issues"
   },
-  "homepage": "https://github.com/cyrilf/vuepress-theme-book",
+  "homepage": "https://vuepress-theme-book.netlify.app/",
   "dependencies": {},
   "devDependencies": {}
 }
