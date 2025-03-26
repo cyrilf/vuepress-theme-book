@@ -852,11 +852,11 @@
     esutils "^2.0.2"
 
 "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
-  version "7.10.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.3.tgz#670d002655a7c366540c67f6fd3342cd09500364"
-  integrity sha512-RzGO0RLSdokm9Ipe/YD+7ww8X2Ro79qiXZF3HU9ljrM+qnJmH1Vqth+hbiQZy761LnMJTMitHDuKVYTk3k4dLw==
+  version "7.27.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.0.tgz#fbee7cf97c709518ecc1f590984481d5460d4762"
+  integrity sha512-VtPOkrdPHZsKc/clNqyi9WUA8TINkZ4cGk63UUE3u4pmB2k+ZMQRDuIOagv8UVd6j7k0T3+RRIb7beKTebNbcw==
   dependencies:
-    regenerator-runtime "^0.13.4"
+    regenerator-runtime "^0.14.0"
 
 "@babel/template@^7.10.1", "@babel/template@^7.10.3":
   version "7.10.3"
@@ -6454,10 +6454,10 @@ regenerate@^1.4.0:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.1.tgz#cad92ad8e6b591773485fbe05a485caf4f457e6f"
   integrity sha512-j2+C8+NtXQgEKWk49MMP5P/u2GhnahTtVkRIHr5R5lVRlbKvmQ+oS+A5aLKWp2ma5VkT8sh6v+v4hbH0YHR66A==
 
-regenerator-runtime@^0.13.4:
-  version "0.13.5"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
-  integrity sha512-ZS5w8CpKFinUzOwW3c83oPeVXoNsrLsaCoLtJvAClH135j/R77RuymhiSErhm2lKcwSCIpmvIWSbDkIfAqKQlA==
+regenerator-runtime@^0.14.0:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
+  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
 regenerator-transform@^0.14.2:
   version "0.14.4"
